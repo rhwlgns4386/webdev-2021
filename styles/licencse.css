@@ -1,0 +1,11 @@
+@import "common.css";
+h1{
+    color:red;
+}
+h2{
+    font-size: 24px;
+    color: antiquewhite;
+}
+li{
+    color:red
+}
