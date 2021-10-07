@@ -1,10 +1,30 @@
-span{
-    color: white;
-    font-size: larger;
-    font-weight: bold;
-    background-color: orange;
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.dialog{
     width: 300px;
     height: 50px;
+    padding:13px 0 0 20px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 700;
+    background-color: orange;
     border-radius: 5px;
-    padding:13px 20px 13px 20px  ;
+    position: absolute;
+    top:100px;
+    left:50%;
+    z-index: 9999;
+}
+.dialog .close{
+    position: absolute;
+    right:20px;
+}
+.dialog2{
+    width:500px;
+    height: 500px;
+    position: absolute;
+    background-color: #00c73c;
 }
