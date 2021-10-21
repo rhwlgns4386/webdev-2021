@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+<h1>프론트엔드 개발자 지원서</h1>
+<h2>HTML,CSS,JAVASCRIPT에 대한 기술적 이해화 많은 경험이 있는분을 찾습니다.</h2>
+<hr>
+<form name="profile" action="/action_page.php" method="get" autocomplete="on">
+    <fieldset>
+        <legend>입사지원서</legend>
+
+        <h3>개인정보</h3>
+        <ul>
+            <li><label>이름<input type="text" name="name"></label></li>
+            <li><label>연락처<input type="text" name="ponnumber"></label></li>
+            <li><label>학과
+                    <select name="department">
+                    <option value="computer">컴퓨터 공학과</option>
+                </select>
+                </label></li>
+        </ul>
+
+        <h3>지원 분야</h3>
+        <ul>
+            <li><label><input type="radio" name="web-publishing">웹 퍼블리싱</label></li>
+            <li><label><input type="radio" name="web-app">웹 어플리케이션</label></li>
+            <li><label><input type="radio" name="web-debelop">웹 개발 지원</label></li>
+        </ul>
+
+        <h3>지원 동기</h3>
+        <label>
+            <textarea name="comment" cols="50" rows="5" placeholder="지원동기를 작성해주세요"></textarea>
+        </label>
+        <br>
+        <input type="submit" value="접수하기"/>
+        <input type="reset" value="다시작성"/>
+    </fieldset>
+</form>
+</body>
+</html>
